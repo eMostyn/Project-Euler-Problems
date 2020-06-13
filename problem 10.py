@@ -9,6 +9,7 @@ def isPrime(num):
 
 sum = 2
 for i in range(3,2000000,2):
+    if(isPrime(i)):
         sum += i
         
 print(sum)
